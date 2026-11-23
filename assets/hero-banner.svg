@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Amirali Noorani — NooraniDev">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="60%" stop-color="#0F1622" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="84%" cy="42%" r="46%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.14" />
+      <stop offset="55%" stop-color="#1F6FEB" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ruleFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363D" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#30363D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#30363D" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="subtleGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#161B22" stroke-width="1" />
+    </pattern>
+    <clipPath id="frameClip">
+      <rect width="1200" height="250" rx="12" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="250" fill="url(#bgGrad)" />
+    <rect width="1200" height="250" fill="url(#subtleGrid)" opacity="0.85" />
+    <rect width="1200" height="250" fill="url(#blueGlow)" />
+
+    <!-- Minimal geometric technical motif -->
+    <g stroke="#262C36" stroke-width="1.2" fill="none">
+      <rect x="868" y="34" width="276" height="182" rx="8" fill="#161B22" fill-opacity="0.48" />
+      <line x1="868" y1="68" x2="1144" y2="68" />
+      <path d="M 900 112 L 952 112 L 976 134 L 1038 134" stroke="#30363D" stroke-width="1.5" />
+      <path d="M 900 162 L 948 162 L 976 134" stroke="#30363D" stroke-width="1.5" />
+      <path d="M 1038 134 L 1074 104 L 1112 104" stroke="#58A6FF" stroke-opacity="0.55" stroke-width="1.5" />
+      <path d="M 1038 134 L 1074 166 L 1112 166" stroke="#388BFD" stroke-opacity="0.45" stroke-width="1.5" />
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5">
+      <circle cx="886" cy="51" r="3" fill="#58A6FF" />
+      <text x="898" y="54.5" fill="#8B949E" letter-spacing="1.2">SYSTEMS OVERVIEW</text>
+
+      <circle cx="900" cy="112" r="4" fill="#0D1117" stroke="#58A6FF" stroke-width="1.5" />
+      <text x="910" y="104" fill="#8B949E">VISION</text>
+
+      <circle cx="900" cy="162" r="4" fill="#0D1117" stroke="#58A6FF" stroke-width="1.5" />
+      <text x="910" y="178" fill="#8B949E">EMBEDDED</text>
+
+      <circle cx="976" cy="134" r="4.5" fill="#0D1117" stroke="#58A6FF" stroke-width="1.6" />
+      <circle cx="1038" cy="134" r="4.5" fill="#58A6FF" fill-opacity="0.22" stroke="#58A6FF" stroke-width="1.6" />
+
+      <circle cx="1112" cy="104" r="4" fill="#58A6FF" />
+      <text x="1072" y="94" fill="#79C0FF">ROBOTICS</text>
+
+      <circle cx="1112" cy="166" r="4" fill="#388BFD" />
+      <text x="1076" y="185" fill="#79C0FF">BACKEND</text>
+    </g>
+
+    <!-- Primary identity typography -->
+    <text x="56" y="58" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="2">
+      @NOORANIDEV
+    </text>
+
+    <text x="56" y="110" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-0.5">
+      Amirali Noorani
+    </text>
+
+    <text x="56" y="148" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16.5" font-weight="400">
+      Software Development · Robotics &amp; Autonomous Systems · Embedded &amp; IoT · AI &amp; Vision
+    </text>
+
+    <line x1="56" y1="178" x2="790" y2="178" stroke="url(#ruleFade)" stroke-width="1" />
+
+    <circle cx="62" cy="209" r="3.5" fill="#58A6FF" />
+    <text x="76" y="213" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+      Python · C++ · PHP · JavaScript · Raspberry Pi · ESP32 · OpenCV · Linux
+    </text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="249" rx="11.5" fill="none" stroke="#30363D" />
+</svg>
