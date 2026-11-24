@@ -31,7 +31,7 @@ I am **Amirali Noorani** (`@NooraniDev`). My technical work focuses on connectin
 | Focus Area | Technical Scope |
 | :--- | :--- |
 | **Autonomous Robotics & Vision** | Camera-based perception, OpenCV image processing, YOLO object detection, and embedded actuator control |
-| **IoT & Mesh Automation** | ESP32 / ESP8266 microcontroller nodes, distributed automation logic, and backend synchronization |
+| **IoT Service** | ESP32 / ESP8266 microcontroller nodes, distributed automation logic, and backend synchronization |
 | **Real-Time & Edge Backends** | Python (Flask, Socket.IO), PHP, SQLite / MySQL persistence, and Cloudflare Workers edge APIs |
 
 ---
